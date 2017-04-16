@@ -15,6 +15,11 @@
 		BF1D24971EA357DC006ABCA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1D24951EA357DC006ABCA0 /* LaunchScreen.storyboard */; };
 		BF1D249F1EA3581A006ABCA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF1D249E1EA3581A006ABCA0 /* GoogleService-Info.plist */; };
 		BF1D24A11EA35862006ABCA0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BF1D24A01EA35862006ABCA0 /* Podfile */; };
+		BF1D24A61EA38AA4006ABCA0 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24A51EA38AA4006ABCA0 /* FancyView.swift */; };
+		BF1D24A91EA38BF5006ABCA0 /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24A81EA38BF5006ABCA0 /* Contants.swift */; };
+		BF1D24AB1EA38DCC006ABCA0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AA1EA38DCC006ABCA0 /* RoundButton.swift */; };
+		BF1D24AD1EA390C6006ABCA0 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AC1EA390C6006ABCA0 /* FancyField.swift */; };
+		BF1D24AF1EA392BC006ABCA0 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,13 @@
 		BF1D24981EA357DC006ABCA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1D249E1EA3581A006ABCA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF1D24A01EA35862006ABCA0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF1D24A51EA38AA4006ABCA0 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		BF1D24A81EA38BF5006ABCA0 /* Contants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		BF1D24AA1EA38DCC006ABCA0 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		BF1D24AC1EA390C6006ABCA0 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		BF1D24B01EA3AF64006ABCA0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BF1D24B51EA3DEAB006ABCA0 /* instagramFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = instagramFirebase.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				99129D5C45D535C4CDF9D120 /* Pods_instagramFirebase.framework */,
+				BF1D24B01EA3AF64006ABCA0 /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +96,8 @@
 		BF1D248B1EA357DC006ABCA0 /* instagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				BF1D24B51EA3DEAB006ABCA0 /* instagramFirebase.entitlements */,
+				BF1D24A71EA38BE1006ABCA0 /* Util */,
 				BF1D24A21EA35AB8006ABCA0 /* Model */,
 				BF1D24A31EA35ABE006ABCA0 /* View */,
 				BF1D24A41EA35AC6006ABCA0 /* Controller */,
@@ -106,6 +121,10 @@
 		BF1D24A31EA35ABE006ABCA0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF1D24A51EA38AA4006ABCA0 /* FancyView.swift */,
+				BF1D24AA1EA38DCC006ABCA0 /* RoundButton.swift */,
+				BF1D24AC1EA390C6006ABCA0 /* FancyField.swift */,
+				BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -116,6 +135,14 @@
 				BF1D248E1EA357DC006ABCA0 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		BF1D24A71EA38BE1006ABCA0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D24A81EA38BF5006ABCA0 /* Contants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +180,13 @@
 				TargetAttributes = {
 					BF1D24881EA357DC006ABCA0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JHW6KQDLBW;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -243,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1D24AD1EA390C6006ABCA0 /* FancyField.swift in Sources */,
 				BF1D248F1EA357DC006ABCA0 /* SignInVC.swift in Sources */,
+				BF1D24AB1EA38DCC006ABCA0 /* RoundButton.swift in Sources */,
+				BF1D24AF1EA392BC006ABCA0 /* FancyButton.swift in Sources */,
 				BF1D248D1EA357DC006ABCA0 /* AppDelegate.swift in Sources */,
+				BF1D24A61EA38AA4006ABCA0 /* FancyView.swift in Sources */,
+				BF1D24A91EA38BF5006ABCA0 /* Contants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +406,12 @@
 			baseConfigurationReference = 71DCBEE4A43A06D62E7B83C2 /* Pods-instagramFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = instagramFirebase/instagramFirebase.entitlements;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = instagramFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.instagramFirebase;
@@ -381,6 +425,12 @@
 			baseConfigurationReference = A8208E79E892E38951A0571F /* Pods-instagramFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = instagramFirebase/instagramFirebase.entitlements;
+				DEVELOPMENT_TEAM = JHW6KQDLBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = instagramFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.instagramFirebase;
