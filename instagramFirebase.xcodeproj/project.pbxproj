@@ -20,6 +20,9 @@
 		BF1D24AB1EA38DCC006ABCA0 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AA1EA38DCC006ABCA0 /* RoundButton.swift */; };
 		BF1D24AD1EA390C6006ABCA0 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AC1EA390C6006ABCA0 /* FancyField.swift */; };
 		BF1D24AF1EA392BC006ABCA0 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */; };
+		BF1D24B81EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24B61EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift */; };
+		BF1D24B91EA3FA8A006ABCA0 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24B71EA3FA8A006ABCA0 /* KeychainWrapper.swift */; };
+		BF1D24BB1EA3FE6B006ABCA0 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24BA1EA3FE6B006ABCA0 /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		BF1D24B01EA3AF64006ABCA0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BF1D24B51EA3DEAB006ABCA0 /* instagramFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = instagramFirebase.entitlements; sourceTree = "<group>"; };
+		BF1D24B61EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		BF1D24B71EA3FA8A006ABCA0 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		BF1D24BA1EA3FE6B006ABCA0 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				99129D5C45D535C4CDF9D120 /* Pods_instagramFirebase.framework */,
+				BF1D24B61EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift */,
+				BF1D24B71EA3FA8A006ABCA0 /* KeychainWrapper.swift */,
 				BF1D24B01EA3AF64006ABCA0 /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
@@ -133,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				BF1D248E1EA357DC006ABCA0 /* SignInVC.swift */,
+				BF1D24BA1EA3FE6B006ABCA0 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -276,11 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1D24B91EA3FA8A006ABCA0 /* KeychainWrapper.swift in Sources */,
 				BF1D24AD1EA390C6006ABCA0 /* FancyField.swift in Sources */,
+				BF1D24BB1EA3FE6B006ABCA0 /* FeedVC.swift in Sources */,
 				BF1D248F1EA357DC006ABCA0 /* SignInVC.swift in Sources */,
 				BF1D24AB1EA38DCC006ABCA0 /* RoundButton.swift in Sources */,
 				BF1D24AF1EA392BC006ABCA0 /* FancyButton.swift in Sources */,
 				BF1D248D1EA357DC006ABCA0 /* AppDelegate.swift in Sources */,
+				BF1D24B81EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift in Sources */,
 				BF1D24A61EA38AA4006ABCA0 /* FancyView.swift in Sources */,
 				BF1D24A91EA38BF5006ABCA0 /* Contants.swift in Sources */,
 			);
@@ -413,6 +425,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = instagramFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.instagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +445,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = instagramFirebase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.instagramFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,3 +1,5 @@
+platform :ios, '9.0'
+
 target 'instagramFirebase' do
 use_frameworks!
 pod 'Firebase'
