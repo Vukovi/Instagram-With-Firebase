@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E9221BF5F1418522F1F2F159CAA6E6812D4302AF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AA9C185FDFAC0EA3F72F2D69029C481122895CB4" : 9223372036854775807,
+    "E9221BF5F1418522F1F2F159CAA6E6812D4302AF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "319ABF35-07C7-4488-803D-9BF780B7C78B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AA9C185FDFAC0EA3F72F2D69029C481122895CB4" : "",
+    "E9221BF5F1418522F1F2F159CAA6E6812D4302AF" : "instagramFirebase\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "instagramFirebase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "instagramFirebase.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Vukovi\/CoreData-Lista-Zelja.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA9C185FDFAC0EA3F72F2D69029C481122895CB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Vukovi\/Instagram-With-Firebase.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9221BF5F1418522F1F2F159CAA6E6812D4302AF"
+    }
+  ]
+}
