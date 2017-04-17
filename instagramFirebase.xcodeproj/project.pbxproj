@@ -23,6 +23,10 @@
 		BF1D24B81EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24B61EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift */; };
 		BF1D24B91EA3FA8A006ABCA0 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24B71EA3FA8A006ABCA0 /* KeychainWrapper.swift */; };
 		BF1D24BB1EA3FE6B006ABCA0 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1D24BA1EA3FE6B006ABCA0 /* FeedVC.swift */; };
+		BF56DDA61EA4E22100915A6A /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56DDA51EA4E22100915A6A /* CircleImageView.swift */; };
+		BF56DDA81EA5225F00915A6A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56DDA71EA5225F00915A6A /* PostCell.swift */; };
+		BF56DDAB1EA5308200915A6A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56DDAA1EA5308200915A6A /* DataService.swift */; };
+		BF56DDAD1EA545E300915A6A /* PostObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF56DDAC1EA545E300915A6A /* PostObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		BF1D24B61EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		BF1D24B71EA3FA8A006ABCA0 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		BF1D24BA1EA3FE6B006ABCA0 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		BF56DDA51EA4E22100915A6A /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		BF56DDA71EA5225F00915A6A /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BF56DDAA1EA5308200915A6A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BF56DDAC1EA545E300915A6A /* PostObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 		BF1D248B1EA357DC006ABCA0 /* instagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				BF56DDA91EA5306C00915A6A /* Services */,
 				BF1D24B51EA3DEAB006ABCA0 /* instagramFirebase.entitlements */,
 				BF1D24A71EA38BE1006ABCA0 /* Util */,
 				BF1D24A21EA35AB8006ABCA0 /* Model */,
@@ -122,6 +131,7 @@
 		BF1D24A21EA35AB8006ABCA0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF56DDAC1EA545E300915A6A /* PostObject.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -133,6 +143,8 @@
 				BF1D24AA1EA38DCC006ABCA0 /* RoundButton.swift */,
 				BF1D24AC1EA390C6006ABCA0 /* FancyField.swift */,
 				BF1D24AE1EA392BC006ABCA0 /* FancyButton.swift */,
+				BF56DDA51EA4E22100915A6A /* CircleImageView.swift */,
+				BF56DDA71EA5225F00915A6A /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,6 +164,14 @@
 				BF1D24A81EA38BF5006ABCA0 /* Contants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		BF56DDA91EA5306C00915A6A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BF56DDAA1EA5308200915A6A /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF56DDA61EA4E22100915A6A /* CircleImageView.swift in Sources */,
+				BF56DDAB1EA5308200915A6A /* DataService.swift in Sources */,
 				BF1D24B91EA3FA8A006ABCA0 /* KeychainWrapper.swift in Sources */,
 				BF1D24AD1EA390C6006ABCA0 /* FancyField.swift in Sources */,
 				BF1D24BB1EA3FE6B006ABCA0 /* FeedVC.swift in Sources */,
@@ -295,6 +317,8 @@
 				BF1D24B81EA3FA8A006ABCA0 /* KeychainItemAccessibility.swift in Sources */,
 				BF1D24A61EA38AA4006ABCA0 /* FancyView.swift in Sources */,
 				BF1D24A91EA38BF5006ABCA0 /* Contants.swift in Sources */,
+				BF56DDAD1EA545E300915A6A /* PostObject.swift in Sources */,
+				BF56DDA81EA5225F00915A6A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
