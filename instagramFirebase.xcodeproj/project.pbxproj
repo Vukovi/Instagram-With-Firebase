@@ -112,8 +112,8 @@
 		BF1D248B1EA357DC006ABCA0 /* instagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				BF56DDA91EA5306C00915A6A /* Services */,
 				BF1D24B51EA3DEAB006ABCA0 /* instagramFirebase.entitlements */,
+				BF56DDA91EA5306C00915A6A /* Services */,
 				BF1D24A71EA38BE1006ABCA0 /* Util */,
 				BF1D24A21EA35AB8006ABCA0 /* Model */,
 				BF1D24A31EA35ABE006ABCA0 /* View */,
